@@ -22,11 +22,11 @@ namespace BaseProject
 
             if (!userManager.Users.Any())
             {
-                userManager.CreateAsync(new AppUser() { UserName = "Eray", Email = "crazyeray94@gmail.com" }, "AllStar94*").Wait();
-                userManager.CreateAsync(new AppUser() { UserName = "Berkay", Email = "crazyberkay00@gmail.com" }, "AllStar94*").Wait();
-                userManager.CreateAsync(new AppUser() { UserName = "User1", Email = "crazyuser1@gmail.com" }, "AllStar94*").Wait();
-                userManager.CreateAsync(new AppUser() { UserName = "User2", Email = "crazuser2@gmail.com" }, "AllStar94*").Wait();
-                userManager.CreateAsync(new AppUser() { UserName = "User3", Email = "crazyuser3@gmail.com" }, "AllStar94*").Wait();
+                userManager.CreateAsync(new AppUser() {Description="Description Eray", UserName = "Eray", Email = "crazyeray94@gmail.com" }, "AllStar94*").Wait();
+                userManager.CreateAsync(new AppUser() {Description="Description Berkay", UserName = "Berkay", Email = "crazyberkay00@gmail.com" }, "AllStar94*").Wait();
+                userManager.CreateAsync(new AppUser() {Description="Description User1", UserName = "User1", Email = "crazyuser1@gmail.com" }, "AllStar94*").Wait();
+                userManager.CreateAsync(new AppUser() {Description="Description User2", UserName = "User2", Email = "crazuser2@gmail.com" }, "AllStar94*").Wait();
+                userManager.CreateAsync(new AppUser() {Description="Description User3", UserName = "User3", Email = "crazyuser3@gmail.com" }, "AllStar94*").Wait();
             }
 
             host.Run();
