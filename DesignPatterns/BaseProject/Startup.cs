@@ -1,4 +1,6 @@
 using BaseProject.Models;
+using BaseProject.Observer;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace BaseProject
@@ -32,6 +35,22 @@ namespace BaseProject
             {
                 options.User.RequireUniqueEmail = true;
             }).AddEntityFrameworkStores<AppIdentityDbContext>();
+
+            services.AddSingleton<UserObserverSubject>(sp =>
+            {
+                //ObserverSubject'imi oluþturuyorum
+                UserObserverSubject userObserverSubject = new();
+
+                //Observer'a notfiy da çalýþacak kayýt iþlemlerimi ekliyorum
+                userObserverSubject.RegisterObserver(new UserObserverWriteToConsole(sp));
+                userObserverSubject.RegisterObserver(new UserObserverCreateDiscount(sp));
+                userObserverSubject.RegisterObserver(new UserObserverSendEmail(sp));
+
+                return userObserverSubject;
+            });
+
+            //Mediatr Örneði için DI yapýsý
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

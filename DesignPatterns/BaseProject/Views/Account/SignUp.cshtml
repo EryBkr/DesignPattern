@@ -1,0 +1,14 @@
+﻿@model CreateUser_VM
+
+<h2>@ViewBag.Message</h2>
+<form class="form-signin" method="post" asp-controller="Account" asp-action="SignUp">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+    <label for="inputname" class="sr-only">User Name</label>
+    <input type="text" asp-for="UserName" id="inputname" class="form-control" placeholder="User Name" required="" autofocus="">
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" asp-for="Email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" asp-for="Password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+    <p class="mt-5 mb-3 text-muted">© 2017-2023</p>
+</form>
