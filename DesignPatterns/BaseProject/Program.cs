@@ -27,6 +27,12 @@ namespace BaseProject
                 userManager.CreateAsync(new AppUser() { UserName = "User1", Email = "crazyuser1@gmail.com" }, "AllStar94*").Wait();
                 userManager.CreateAsync(new AppUser() { UserName = "User2", Email = "crazuser2@gmail.com" }, "AllStar94*").Wait();
                 userManager.CreateAsync(new AppUser() { UserName = "User3", Email = "crazyuser3@gmail.com" }, "AllStar94*").Wait();
+
+                Enumerable.Range(1, 50).ToList().ForEach(i=> 
+                {
+                    identityDbContext.Products.Add(new Product { Name = $"Product {i}", Price = i * 8, Stock = i * 10 });
+                });
+                identityDbContext.SaveChanges();
             }
 
             host.Run();

@@ -74,5 +74,12 @@ C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProj
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\ref\BaseProject.dll
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.pdb
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.genruntimeconfig.cache
-C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.csproj.AssemblyReference.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\Irony.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\SixLabors.Fonts.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\XLParser.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.csproj.AssemblyReference.cache
