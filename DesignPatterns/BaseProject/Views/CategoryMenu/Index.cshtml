@@ -1,0 +1,46 @@
+﻿@{
+    var menu = ViewBag.Menu as BookComposite;
+}
+
+@* Kitap Ekleme *@
+<form asp-controller="CategoryMenu" asp-action="Index" method="post">
+    <select name="categoryId" asp-items="ViewBag.SelectList"></select>
+    <input type="text" name="bookName" />
+    <input type="submit" value="Save" />
+</form>
+
+@* Menüyü card olarak gösteriyoruz *@
+<div class="row mt-5">
+
+    <div class="col-md-4">
+        <div class="card bg-light">
+            <div class="card-header">
+                Toplam Kitap (@menu.Count())
+            </div>
+            <div class="card-body">
+                @foreach (var composite in menu.Components)
+                {
+                    @Html.Raw(composite.Display())
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@* Açılır kapanır menü *@
+@section Scripts{ 
+    <script>
+        $(document).ready(function () {
+
+            $("ul").hide();
+            $(".menu").click(function (e)
+            {
+                e.preventDefault();
+                $(this).parent().next().toggle();
+            });
+
+        });
+    </script>
+}

@@ -76,3 +76,4 @@ C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProj
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.genruntimeconfig.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.csproj.AssemblyReference.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\CategoryMenu\Index.cshtml.g.cs
