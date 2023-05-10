@@ -1,4 +1,6 @@
 using BaseProject.Models;
+using BaseProject.Services;
+using BaseProject.Services.Adapter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +34,14 @@ namespace BaseProject
             {
                 options.User.RequireUniqueEmail = true;
             }).AddEntityFrameworkStores<AppIdentityDbContext>();
+
+            //IImageProcess çok fazla yerde kullanýldý ve artýk bunu kullandýðýmýz kütüphane deðiþti,bu deðiþikliði adapter üstlenecek ve yeni kütüphaneye iletecektir
+            //services.AddScoped<IImageProcess, ImageProcess>();
+            //Artýk Adapter'in instance'ýný bizlere verecek
+            services.AddScoped<IImageProcess, AdvanceImageProcessAdapter>();
+
+
+            services.AddScoped<IAdvanceImageProcess, AdvanceImageProcess>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

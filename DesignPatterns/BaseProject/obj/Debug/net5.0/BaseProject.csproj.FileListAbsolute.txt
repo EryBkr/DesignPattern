@@ -59,6 +59,8 @@ C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProj
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.TagHelpers.input.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.TagHelpers.output.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.RazorCoreGenerate.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Home\AddWatermark.cshtml.g.cs
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -75,4 +77,7 @@ C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProj
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.pdb
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.genruntimeconfig.cache
 C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\BaseProject.csproj.AssemblyReference.cache
-C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\LazZiya.ImageResize.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\Design Patterns\DesignPatterns\BaseProject\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
